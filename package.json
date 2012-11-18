@@ -1,0 +1,22 @@
+{
+    "name"          : "angular-node",
+    "version"       : "0.0.1",
+    "description"   : "pre-compile angularJS file",
+    "homepage"      : "",
+    "keywords"      : ["angularjs", "nodeJS", "pre-compile", "jsdom", "tool"],
+    "author"        : "h63542 <h00063542@gmail.com>",
+    "contributors"  : [],
+    "engines"       : {"node": ">= 0.8.1"},
+    "dependencies"  : {
+        "jsdom": "~0.2.19"
+    },
+    "repository"    : {
+        "type": "git",
+        "url": "git@github.com:h63542/angular-node.git"
+    },
+    "main"          : "./angularjs-node.js",
+    "bin"           : {
+        "angular-precomile": "./bin/angular-precomile"
+    },
+    "preferGlobal"  : true
+}

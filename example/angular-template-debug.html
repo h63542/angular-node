@@ -1,0 +1,18 @@
+
+<html ng-app="ng-app">
+  <head>
+    <script src="http://code.angularjs.org/angular-1.0.2.min.js"></script>
+  </head>
+  <body>
+    <div ng-init="friends = [{name:'John', age:25}, {name:'Mary', age:28}]" class="ng-binding">
+      I have 2 friends. They are:
+      <ul>
+        <!-- ngRepeat: friend in friends --><li ng-repeat="friend in friends" class="ng-scope ng-binding">
+          [1] John who is 25 years old.
+        </li><li ng-repeat="friend in friends" class="ng-scope ng-binding">
+          [2] Mary who is 28 years old.
+        </li>
+      </ul>
+    </div>
+  </body>
+</html>

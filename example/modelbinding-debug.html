@@ -1,0 +1,14 @@
+
+<html ng-app="zippyModule">
+  <head>
+    <script src="http://code.angularjs.org/angular-1.0.2.min.js"></script>
+  </head>
+  <body>
+    <div ng-controller="Ctrl3" class="ng-scope">
+      Title: <input ng-model="title" class="ng-pristine ng-valid" value="Lorem Ipsum" /> <br />
+      Text: <textarea ng-model="text" class="ng-pristine ng-valid">Neque porro quisquam est qui dolorem ipsum quia dolor...</textarea>
+      <hr />
+      <div class="zippy closed" zippy-title="Details: Lorem Ipsum..."><div class="title ng-binding">Details: Lorem Ipsum...</div><div class="body" ng-transclude="ng-transclude"><span class="ng-scope ng-binding">Neque porro quisquam est qui dolorem ipsum quia dolor...</span></div></div>
+    </div>
+  </body>
+</html>
